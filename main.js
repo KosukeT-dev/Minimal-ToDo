@@ -107,5 +107,5 @@ if (localStorage.getItem('name') === null && localStorage.getItem('todo') === nu
   getTodo();
   showTime();
   setBg();
-  getName(); // 既存の名前を取得
+  getName(); 
 }
