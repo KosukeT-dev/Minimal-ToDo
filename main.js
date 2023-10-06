@@ -94,7 +94,7 @@ if (localStorage.getItem('name') === null && localStorage.getItem('todo') === nu
         confirmButtonText: 'Great!'
       })
 
-      localStorage.setItem('name', enteredName); // 名前を正しく保存
+      localStorage.setItem('name', enteredName); 
       localStorage.setItem('todo', enteredTodo);
 
       getName();
