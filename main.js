@@ -91,7 +91,7 @@ if (localStorage.getItem('name') === null && localStorage.getItem('todo') === nu
               <p>Your Name: ${enteredName}</p>
               <p>Your Todo: ${enteredTodo}</p>
             `,
-        confirmButtonText: 'Great!'
+        confirmButtonText: 'OK!'
       })
 
       localStorage.setItem('name', enteredName); 
